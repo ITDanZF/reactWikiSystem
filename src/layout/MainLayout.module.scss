@@ -1,17 +1,31 @@
 .main {
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+// 让 header 内部内容水平排列，logo 和菜单靠左
 .header {
-    color: #ffffff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  .logo {
+    margin-right: 24px;
+  }
+
+  .nav {
+  }
 }
 
 .content {
-
+  height: calc(100vh - 64px - 50px);
 }
 
 .footer {
-    background-color: #f7f7f7;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
 }

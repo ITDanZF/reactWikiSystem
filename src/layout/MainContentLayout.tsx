@@ -24,7 +24,7 @@ const MainContentLayout: FC = () => {
     <>
       <Layout className={styles.main}>
         <Sider className={styles.sider}>
-          <Menu items={menuItems} theme="dark" />
+          <Menu items={menuItems} theme="dark"></Menu>
         </Sider>
         <Layout>
           <Content className={styles.content}>
